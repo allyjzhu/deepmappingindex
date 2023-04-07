@@ -1,0 +1,257 @@
+@font-face {
+    font-family: headings;
+    src: url(fonts/BrevierViennese-Regular.otf);
+}
+.site-title{
+    text-align: justify;
+    width: 55vw;
+    height: 40vh;
+    white-space: normal;
+    padding: 1%;
+  position: absolute;
+}
+.pagelinks{
+    width: 120px;
+    position: fixed;
+    display:inline-flex;
+    justify-content: space-between;
+    z-index:1;
+    bottom: 18px;
+    right: 4vw;
+}
+
+.pagelinks a{
+    background-color: orange;
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    font-size: 14pt;
+}
+
+.pagelinks a:hover{
+    background-color: green;
+}
+.title-image{
+    display: block;
+    width: 100%;
+    padding-bottom:0%;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.title-quote{
+    font-size: 1.5vw;
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    font-weight: lighter;
+    position: relative;
+    text-align: justify;
+    top: 9px;
+    margin: 0 auto;
+}
+
+.title-quote:hover{
+    color: #fff;
+    -webkit-animation: title-quote 1s ease-in-out infinite alternate;
+    -moz-animation: title-quote 1s ease-in-out infinite alternate;
+    animation: title-quote 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes title-quote {
+    from {
+      text-shadow: 0 10px 10px #fff, 0 0 20px #fff, 0 0 30px #e60073;
+    }
+    to {
+      text-shadow: 0 0 30px #fff, 0 0 40px #ff4da6, 0 0 50px #ff4da6;
+    }
+  }
+
+body{
+    height: auto;
+    overflow-y:hidden;
+}
+
+
+hr.solid{
+    margin-top: 0%;
+    background-color: black;
+    height: 3px;
+}
+
+hr.solid2{
+    margin-top: 30%;
+    background-color: black;
+    height: 3px;
+}
+
+.vl{
+    border-right: 2px black;
+    position: absolute;
+    right: 30%;
+    height: 500px;
+    top: 0;
+}
+
+h2,p{
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+}
+
+.reader{
+    float: right;
+    border-left: 2px solid black;
+    height:100%;
+    width: 35vw;
+    margin-right: 0px;
+    padding: 0;
+    height:98vh;
+    resize: horizontal;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.reader-content{
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    overflow: auto;
+    height: 90vh;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.reader-content a:hover{
+    color: pink;
+}
+
+
+
+a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.webpreview{
+    width: 50%;
+    padding-right: 20px;
+
+}
+
+h4{
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    font-weight: lighter;
+    color: green;
+}
+.web-text{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 3%;
+    text-transform:uppercase;
+}
+.webpreview:hover{
+    width: 51%;
+}
+.toolkits{
+    float:left;
+    border-top: 2px solid black;
+    margin-top: 25%;
+    width: 63.2vw;
+    position:absolute;
+    height:100vh;
+    overflow-x:auto;
+}
+
+.toolkits-content{
+    padding-left: 3%;
+    overflow:scroll;
+    padding-bottom: 2%;
+    height:60vh;
+}
+
+.extractive-data-justice{
+    height: 0px;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.active .extractive-data-justice{
+    height: 240px;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    overflow: auto;
+}
+
+.critical-cartography{
+    height: 0px;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.active .critical-cartography{
+    height: 90vh;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    overflow: auto;
+}
+
+.digital-placemaking{
+    height: 0px;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.active .digital-placemaking{
+    height: 60vh;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    overflow: auto;
+}
+
+.how-to-map-a-memory{
+    height: 0px;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+.toggle-button{
+    padding: 1%;
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    margin-bottom: 10px;
+   
+}
+
+.toggle-button:hover{
+    color: blue;
+}
+
+
+.active .how-to-map-a-memory{
+    height: 30vh;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    overflow: auto;
+}
+
+
+.cyberfeminist-data{
+    height: 0px;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.active .cyberfeminist-data{
+    height: 30vh;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    overflow: auto;
+}
+
+.black-geographies{
+height: 0px;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+}
+
+.active .black-geographies{
+    height: 30vh;
+    visibility: visible;
+    transition: all 0.5s ease-in;
+    overflow: auto;
+}
