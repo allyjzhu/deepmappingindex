@@ -111,7 +111,7 @@ h2,p{
 
 .reader-content{
     font-family: 'Arial Narrow', Arial, sans-serif ;
-    font-size: 16pt;
+    font-size: 1vw;
     overflow: auto;
     height: 90vh;
     padding-left: 5%;
