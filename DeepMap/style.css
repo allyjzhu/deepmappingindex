@@ -1,6 +1,8 @@
 @font-face {
     font-family: headings;
     src: url(fonts/BrevierViennese-Regular.otf);
+    font-family: 'Arial Narrow';
+    src: url(fonts/ARIALN.ttf);
 }
 .site-title{
     text-align: justify;
