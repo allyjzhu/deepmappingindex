@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>$(document).ready(function() {
+    $(".toggle-button").on("click", function() {
+      $(this).closest(".toggle-wrap").toggleClass("active");
+    });
+  })</script>
+
+<style>
+    h1{color: black;}
+    body{background-color: rgb(243, 245, 238);}
+</style>
+<link rel="stylesheet" href="style.css">
+     <body>
+         <div class="site-title">
+             <img class="title-image" src="fonts/title_2@2x.png" >
+        <h3 class="title-quote"> instead of focusing on how we can map the subject…[we could] focus on the ways in which mapping and the cartographic gaze have coded subjects and produced identities JOHN PICKLES 2004</h3>
+    </div>
+    <div class="pagelinks">
+    <a href="index.html">INDEX</a>
+    <a href="about.html">ABOUT</a>
+</div>
+        <div class = "reader">
+            <div class="reader-content">
+               <h2>Reader</h2> 
+               <div class ="articles"></div>
+               
+                <a  href="https://www.researchgate.net/publication/241435510_An_Introduction_to_Critical_Cartography"target="_blank">An Introduction to Critical Cartography</a><br> 
+                <a id="l2"href="https://archis.org/volume/the-counter-map-and-the-territory/"target="_blank">The Counter Map and the Territory</a><br>
+                <a id="l3"href="http://www.geo.hunter.cuny.edu/~mpavlov/Articles/Pavlovskaya%202016%20Digital%20place-making-MP-DAaH-chapter-proofed.pdf"target="_blank">Digital Place-Making: Insights From Critical Cartography and GIS</a><br>
+                <a href="https://www.mdpi.com/books/book/201"target="_blank">Deep Mapping (2016) by Les Roberts</a><br>
+                <a href="https://www.sciencedirect.com/science/article/pii/S0016718521000300"target="_blank">The mapping behind the movement: On recovering the critical cartographies of the African American Freedom Struggle
+                    Author links open overlay panel</a><br>
+                <a href="https://www.theatlantic.com/technology/archive/2018/06/satellite-images-can-harm-the-poorest-citizens/561920/"target="_blank">Satellite Images Can Harm the Poorest Citizens</a>
+                <a href="https://www.tandfonline.com/doi/abs/10.1080/1369118X.2019.1581243"target="_blank">Extra-activism: counter-mapping and data justice</a> <br>
+                <a href="https://shs.hal.science/halshs-03789715/document">Farewell to maps Reformulating critical cartography in the digital age</a><br>
+                <a href="https://www.esri.com/about/newsroom/arcnews/putting-indigenous-place-names-and-languages-back-on-maps/"target="_blank">Putting Indigenous Place-Names and Languages Back on Maps</a> <br>
+                <a href="https://www.sciencedirect.com/science/article/abs/pii/S0169204615001504"target="_blank">Critical cartography 2.0: From “participatory mapping” to authored visualizations of power and people</a>  
+               <br> <a href="https://dusk.geo.orst.edu/virtual/2007/Ghose_Elwood03.pdf"target="_blank">Public Participation GIS and Local Political Context:
+                    Propositions and Research Directions</a><br>
+                    <a href="https://crdh.rrchnm.org/essays/v02-05-mapping-black-ecologies/"target="_blank">Mapping Black Ecologies</a>
+                <a href="https://d-nb.info/1270381008/34"target="_blank">Digital Placemaking for Urban Regeneration: Identification of Historic
+                    Heritage Values in Taiwan and the Baltic States</a> <br>
+                    <a href="https://link.springer.com/article/10.1007/s42489-019-00004-4"target="_blank">Audiovisual Cartography: Established and New Multimedia Approaches to Represent Soundscapes</a>
+                <br><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/cag.12575"target="_blank" >Feminist cartography and the United Nations Sustainable Development Goal on gender equality: Emotional responses to three thematic maps</a>   
+            </div>
+          
+
+
+            </div>
+        </div>
+        <div class="toolkits">
+            <div class="toolkits-content">
+                <h2>Toolkits</h2>
+                <div class="toggle-wrap">
+                    <button id="button" class="toggle-button">   + Critical cartography </button>
+                <div class="critical-cartography">
+                    <a class="web-text" href="https://notanatlas.org/"target="_blank">
+                        <img class ="webpreview" src="img/notanatlas.png">
+                        <h4>This Is Not An Atlas : An e-book and collection of critical mapping projects</h4>
+                    </a>
+
+                    <a class="web-text" href="https://antievictionmap.com/"target="_blank">
+                        <img class="webpreview" src="img/aemp.png">
+                        <h4>Anti-Eviction Mapping Project : A mapping collective which uses data justice and GIS to resist capitalist structures</h4>
+                    </a>
+
+                    <a class="web-text" href="https://slab.today/new-research-page/"target="_blank">
+                        <img class="webpreview" src="img/slab.png">
+                        <h4>SLAB : USC PRICE's Spatial Analysis Lab narrates human interactions and urban relationships</h4>
+                    </a>
+                </div>
+                </div>
+                <div class="toggle-wrap">
+                    <button id="button" class="toggle-button">   + Digital placemaking </button>
+                <div class="digital-placemaking">
+                   <a class="web-text" href="https://digitaldeepmapping.pubpub.org/"target="_blank">
+                    <img class="webpreview" src="img/ddp.png">
+                    <h4>Digital Deep Mapping researches the praxis of digital media, spatial representation, and social justice</h4>
+                </a>
+                <a class="web-text" href="https://bristolbathcreative.org/activities/digital-placemaking"target="_blank">
+                    <img class="webpreview" src="img/bbc.png">
+                    <h4>Bristol + Bath Creative Research and Design: Prototypes of digital placemaking models using mapping and other technologies</h4>
+                </a>
+                </div>
+                </div>
+                <div class="toggle-wrap">
+                    <button id="button" class="toggle-button">   + How to map a memory </button>
+                <div class="how-to-map-a-memory">
+                    <a class="web-text" href="https://lincolnmullen.com/projects/spatial-workshop/deep-maps.html"target="_blank">
+                        <img class="webpreview" src="img/lm.png">
+                        <h4>Workshop by Professor Lincoln Mullen in deep mapping and the types of data to consider</h4>
+                    </a>
+                 </div>
+                 </div>
+                 <div class="toggle-wrap">
+                    <button id="button" class="toggle-button">   + Cyberfeminist data </button>
+                 <div class="cyberfeminist-data">
+                    <a class="web-text" href="https://cyberfeminismindex.com/"target="_blank">
+                        <img class="webpreview" src="img/cfi.png">
+                        <h4>Mindy Seu's index of cyberfeminist text and resources</h4>
+                    </a>
+                 </div>
+                 </div>
+                 <div class="toggle-wrap">
+                    <button id="button" class="toggle-button">   + Black geographies </button>
+                 <div class="black-geographies">
+                    <a class="web-text" href="https://lynchinginamerica.eji.org/"target="_blank">
+                        <img class="webpreview" src="img/eji.png">
+                        <h4>Lynching in America: Equal Justice Initiative researches the histories and impacts of lynching as racial terrorism
+                        </h4>
+                    </a>
+                 </div>
+                 </div>
+                 <div class="toggle-wrap">
+                <button id="button" class="toggle-button"> + Extractive and climate data justice </button>
+                 <div class="extractive-data-justice">
+                    
+                    <a class="web-text" href="https://criticalcartography.com/"target="_blank">
+                        <img class="webpreview" src="img/ccrp.png">
+                        <h4>Critical Cartography and Restoration Project: Project centered around climate resiliency</h4>
+                    </a>
+                    <a class="web-text" href="https:// whatismissing.org"target="_blank">
+                        <img class="webpreview" src="img/wim.png">
+                        <h4>Maya Lin's project focused on environmental loss and memory mapping</h4>
+                    </a>
+                   
+                    <a class="web-text" href=" https://www.mapx.org/"target="_blank">
+                        <img class="webpreview" src="img/mapx.png">
+                        <h4>MAPX is an open source database for environmental monitoring of extractive industries </h4>
+                    </a>
+        
+                 </div>
+                </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
